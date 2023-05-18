@@ -30,7 +30,7 @@ function Chats() {
         dispatch(getChats("NViW6p3fcuCoA5uUXYo"))
         //console.log('Users-->', users);
 
-    }, []);
+    }, [dispatch]);
 
     // const [chatUser, setChatUser] = useState({})
     const [message, setMessage] = useState("")
