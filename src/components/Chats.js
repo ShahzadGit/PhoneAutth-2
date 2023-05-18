@@ -32,7 +32,7 @@ function Chats() {
 
     }, []);
 
-    const [chatUser, setChatUser] = useState({})
+    // const [chatUser, setChatUser] = useState({})
     const [message, setMessage] = useState("")
 
 /*

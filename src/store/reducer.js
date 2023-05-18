@@ -1,4 +1,5 @@
-import { SETUSERS, SETFBUSERS, LOGOUT, GETCHATS, INCREMENT_BY_VALUE } from "./action"
+// import { SETUSERS, SETFBUSERS, LOGOUT, GETCHATS, INCREMENT_BY_VALUE } from "./action"
+import { GETCHATS, INCREMENT_BY_VALUE } from "./action"
 
 const initialState = { 
     // users: [],

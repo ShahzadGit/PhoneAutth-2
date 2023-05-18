@@ -20,7 +20,10 @@ function Startfirebase(opt) {
     case "Auth":
       return getAuth(app);
     case "DB":
-      return getDatabase(app)
+      return getDatabase(app);
+    
+    default:
+      return null;
 
   }
 
